@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-size: 12px !important;
+    font-family: "Helvetica", tahoma;
+    background-image: url("");
+    background-position: no-repeat;
+    background-attachment: fixed
+}
+
+table td {
+    font-size: 12px;
+}
+
+.tabledados td {
+    width: 100%
+}
+
+.tabledados {
+    width: 100%
+}
+
+header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.68)
+}
+
+<<<<<<< Updated upstream
+header .menu {
+    width: 100%;
+    background-color: rgba(104, 162, 255, 1);
+}
+
+header .menu ul {
+    position: relative;
+    width: 30%;
+    background-color: rgba(43, 111, 219, 1);
+    padding: 9px 0px 9px 0px;
+    text-align: center;
+    width: 100%
+}
+
+header .menu ul li {
+    display: inline;
+    list-style: none;
+    padding: 9px;
+    border-right: 1px solid rgba(43, 150, 219, 1);
+    position: relative
+}
+
+header .menu ul li:last-child {
+    border-right: 0 !important
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: rgba(240, 240, 240, 1);
+}
+
+header .menu ul li ul {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: auto;
+    left: 0;
+    top: 32px;
+    background-color: rgba(0, 179, 119, 1);
+    text-align: left
+}
+
+header .menu ul li ul li {
+    display: block;
+    list-style: none;
+    padding: 4px;
+    border-right: 1px solid rgba(39, 150, 219, 1);
+}
+
+header .menu ul li:hover {
+    background-color: rgba(0, 179, 119, 1)
+}
+
+header .menu ul li:hover ul {
+    display: block
+}
+
+header .menu ul li ul li:hover {
+    background-color: rgba(0, 179, 255, 1)
+}
+
+header .menu ul li ul li a {
+    padding: 9px 40px 9px 10px;
+}
+
+header .menu {}
+
+header .logo {}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo {
+    position: relative;
+    width: 80%;
+    min-height: 100%;
+    background-color: rgba(253,253,253,1);
+    padding: 0px 40px 0px 40px;
+}
+
+.conteudo .formulariopessoa {}
+
+=======
+>>>>>>> Stashed changes
+.fieldsetedit {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    padding: 14px 4px 14px 4px;
+    border: 1px solid rgba(200, 200, 200, 1);
+    margin-top: 16px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 4px 7px 2px -7px rgba(0, 0, 0, 0.58);
+}
+
+.fieldsetedit .title {
+    font-weight: bold;
+    position: absolute;
+    top: -11px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: rgba(0, 179, 119, 1);
+    color: white
+}
+
+.botaosubmit {
+    padding: 8px 10px;
+    background-color: rgba(43, 130, 219, 1);
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 2px 7px 4px -6px rgba(0, 0, 0, 0.89);
+    color: white
+}
+
+.formulario {}
+
+.conteudomestre {
+    min-height: 100%;
+    width: 64%;
+    position: relative;
+}
+
+.paginatitulo {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 25px;
+    position: relative;
+    font-size: 21px;
+    width: 100%;
+    border-bottom: 4px solid rgba(0, 179, 119, 1);
+    color: rgba(0, 179, 119, 1)
+}
+
+.paginatitulo::after {
+    top: 100%;
+    left: 48%;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.1px 19px 0 19px;
+    border-color: rgba(0, 179, 119, 1) transparent transparent transparent;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(90, 90, 90, 1);
+    margin-top: 4px
+}
+
+<<<<<<< Updated upstream
+.pagina {
+    padding-bottom: 30px;
+    position:relative;
+}
+
+.middle {
+    margin: 0 auto
+}
+
+input[type="text"] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-bottom: 2px solid rgba(210, 210, 210, 1);
+    width: 99%
+}
+
+input[type="date"] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-bottom: 2px solid rgba(210, 210, 210, 1);
+    min-width: 40%
+}
+
+input[type="password"] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+    width: 40%;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-bottom: 2px solid rgba(210, 210, 210, 1);
+    width: 99%
+}
+
+.error {
+    font-size: 12px;
+    padding: 4px;
+    width: 100%;
+    background-color: rgba(252, 126, 126, 1);
+    border: 1px solid rgba(255, 61, 61, 1);
+    margin: 10px 0 10px 0
+}
+
+.success {
+    font-size: 12px;
+    padding: 4px;
+    width: 100%;
+    background-color: rgba(159, 255, 91, 1);
+    border: 1px solid rgba(123, 219, 54, 1);
+    margin: 10px 0 10px 0
+}
+
+.evento {
+    width: 100%;
+    position: relative;
+}
+
+.stuck {
+    position: fixed;
+    top: 0;
+    z-index: 1
+}
+
+.tableinformacao {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%
+}
+
+.tableinformacao tr {}
+
+.tableinformacao tr th {
+    background-color: rgba(240, 240, 240, 1)
+}
+
+.tableinformacao tr td {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(43, 111, 219, 1);
+    border-right: 1px solid rgba(43, 111, 219, 1);
+    padding: 4px;
+    margin: 0;
+    text-align: center;
+}
+
+.tableinformacao {}
+
+.colunas {
+    display: inline-block;
+    vertical-align: top
+}
+
+.colunaa1 {
+    width: 60%
+}
+
+.colunaa2 {
+    width: 34%
+}
+
+.formcolumn {}
+
+.formcolumn .column {
+    display: inline-block;
+    min-width: 30%
+}
+
+.column {
+    display: inline-block;
+    min-width: 30%;
+    padding:4px;
+    padding-top:15px;
+}
+
+.selectform {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-bottom: 2px solid rgba(210, 210, 210, 1);
+    width: 99%
+}
+
+.selectformcolumn {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-bottom: 2px solid rgba(210, 210, 210, 1);
+    min-width: 10%
+}
+
+.titleform {
+    color: rgba(43, 111, 219, 1);
+    font-size: 12px;
+    font-weight: bold
+}
+
+.separador {
+    border-bottom: 1px solid rgba(43, 111, 219, 1);
+    padding-bottom: 4px
+}
+
+.menulogin {
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+    height: 33px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px 0 0 0;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.menulogin .name {
+    position: relative;
+    margin-top: 8px
+}
+
+a {
+    text-decoration: none
+}
+
+=======
+>>>>>>> Stashed changes
+.listformata1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.listformata1 li {
+    list-style: none;
+    display: inline-block;
+    position: relative
+}
+
+input[type="checkbox"] {
+    margin-right: 4px
+}
+
+.checklist {
+    padding: 4px
+}
+
+.checklist:nth-child(odd) {
+    background-color: rgba(240, 240, 240, 1)
+}
+
+.checklist {
+    padding: 4px;
+}
+
+.checklist label {
+    width: 100%;
+    display: block;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.checklist input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.checkstylea1 {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* IMAGE STYLES */
+.checkstylea1+img {
+    opacity: 0.5
+}
+
+/* CHECKED STYLES */
+.checkstylea1:checked+img {
+    opacity: 1
+}
+
+.cancelado {
+    color: rgba(252, 126, 126, 1);
+    font-weight: bold
+}
+
+.concluido {
+    color: rgba(159, 255, 91, 1);
+    font-weight: bold
+}
+
+<<<<<<< Updated upstream
+.paginacao {
+  position:absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.paginacao ul {
+  margin-top:10px;
+}
+
+.paginacao ul li {
+  display:inline;
+  list-style:none;
+}
+.paginacao ul li a{
+  text-decoration: none;
+  background-color: #2488e0;
+  padding:4px 8px;
+  border-radius:2px;
+  color:white;
+}
+/*COMECODOMODAL*/
+.modal {
+    position: fixed;
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    display: none;
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    min-width: 240px;
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.modalred {
+    background-color: rgba(252, 126, 126, 1);
+    border: 1px solid rgba(255, 61, 61, 1);
+}
+
+.modalgreen {
+    background-color: rgba(159, 255, 91, 1);
+    border: 1px solid rgba(123, 219, 54, 1);
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 4;
+    top: 0;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*FIMDOMODAL*/
+.buttonForm {
+    background-color: #2488e0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #126cba;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #0f6dab;
+}
+
+.buttonForm:hover {
+    background-color: #2a65bd;
+}
+
+.buttonForm:active {
+    position: relative;
+    top: 1px;
+}
+
+=======
+>>>>>>> Stashed changes
+.chamadonaourgente {
+    padding: 4px 10px;
+    background-color: #0055FF;
+    border-radius: 4px;
+    color: rgba(255,255,255, 1) !important
+}
+
+.chamadopoucourgente {
+    padding: 4px 10px;
+    background-color: #22CC00;
+    border-radius: 4px;
+    color: rgba(255,255,255, 1) !important
+}
+
+.chamadourgente {
+    padding: 4px 10px;
+    background-color: #FFFF33;
+    border-radius: 4px;
+    color: rgba(255,255,255, 1) !important
+}
+
+.chamadoimediato {
+    padding: 4px 10px;
+    background-color: #FF2A00;
+    border-radius: 4px;
+    color: rgba(255,255,255, 1) !important
+}

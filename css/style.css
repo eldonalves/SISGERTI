@@ -1,0 +1,62 @@
+option:first {
+	color: #999;
+}
+.sistemahrsc{
+	width:100%;
+	position:relative;
+}
+header{
+	height:130px;
+}
+.logo{
+	background-image:url(../icons/background.jpg);
+	background-size:200px 100px;
+	width:200px;
+	height:100px;
+}
+.conteudo{
+	background-color: rgba(240,240,240,3);
+	min-height:640px;
+	display:block;
+}
+footer{
+	background-color: rgba(90,90,90,1);
+	height:150px;
+	width:100%;
+	position:relative;
+}
+
+.main{
+	width: 50%;
+	align-items: center;
+}
+
+.coluna{
+	display: inline-block;
+	min-width:40%;
+	vertical-align: top;
+}
+
+.chamado{}
+/*.pMBaixa{background-color: rgba(70,190,230,1);}
+.pBaixa{background-color: rgba(100,230,80,1);}
+.pMedia{background-color: rgba(240,230,60,1);}
+.pAlta{background-color: rgba(255,70,40,1);}*/
+
+input[type=radio]:checked+img{
+	opacity: 1;
+}
+input[type=checkbox]:checked+img{
+	opacity: 1;
+}
+.opacityLow{
+	opacity: 0.5;
+}
+
+input[type=text]{
+	border-radius: 4px;
+}
+
+fieldset{
+	border-radius: 5px;
+}
